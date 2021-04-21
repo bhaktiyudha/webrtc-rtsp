@@ -1,0 +1,10 @@
+[Unit]
+Description=RTSP Stream Web RTC Always-on Service
+
+[Service]
+Restart=always
+Type=simple
+ExecStart=/home/avc/avc/webrtc-rtsp/rtsp-bench
+
+[Install]
+WantedBy=multi-user.target
